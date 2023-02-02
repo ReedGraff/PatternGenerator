@@ -13,7 +13,7 @@ def updateSliders(sliderInputs):
     Populate 'slider_configuration' group with as many sliders as set in 'slider_controller'.
     Delete previous ones and create new sliders.
     """
-    spinner = sliderInputs.itemById("slider_controller")
+    spinner = sliderInputs.itemById("PatternType")
     value = spinner.value
     # check ranges
     if value > spinner.maximumValue or value < spinner.minimumValue:
